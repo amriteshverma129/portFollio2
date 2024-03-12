@@ -1,5 +1,4 @@
 import React from "react";
-import MenuIcon from "../icon/MenuIcon";
 import ThemeSwitch from "./ThemeSwitch";
 
 const Header = () => {
