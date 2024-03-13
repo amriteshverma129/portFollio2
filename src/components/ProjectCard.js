@@ -24,16 +24,18 @@ const ProjectCard = ({
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           {projectName}
         </h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 h-[300px] relative">
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400  relative">
           <ul className="list-disc p-5">
             {projectFeature.map((para, index) => {
-              return <li key={index}>{para}</li>;
+              return (
+                <li key={index} dangerouslySetInnerHTML={{ __html: para }}></li>
+              );
             })}
           </ul>
         </p>
         <a href={gitLink} target="_blank" rel="noreferrer">
           {" "}
-          <button className="bg-white py-2 px-5 rounded-sm mt-2">
+          <button className="bg-white py-2 px-5 rounded-sm mt-auto ">
             Get the code
           </button>
         </a>
