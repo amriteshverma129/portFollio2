@@ -7,21 +7,27 @@ const Certificates = () => {
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  gap-10">
         <div className="h-64 rounded-md">
           <img
-            src={"/images/Javascript certificate.jpg"}
+            src={
+              "https://images.prismic.io/portfollio/ZfG7eEmNsf2sHjWD_Javascriptcertificate.jpg?auto=format,compress"
+            }
             alt={""}
             className="h-full w-full object-cover rounded-md"
           />
         </div>
         <div className="h-64 rounded-md">
           <img
-            src={"/images/Frontend Development.jpg"}
+            src={
+              "https://images.prismic.io/portfollio/ZfG7eUmNsf2sHjWF_FrontendDevelopment.jpg?auto=format,compress"
+            }
             alt={""}
             className="h-full w-full object-cover rounded-md"
           />
         </div>
         <div className="h-64 rounded-md">
           <img
-            src={"/images/certificate.jpg"}
+            src={
+              "https://images.prismic.io/portfollio/ZfG7dkmNsf2sHjV-_certificate.jpg?auto=format,compress"
+            }
             alt={""}
             className="h-full w-full object-cover rounded-md"
           />

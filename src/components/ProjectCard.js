@@ -10,13 +10,14 @@ const ProjectCard = ({
   return (
     <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <div className="h-52 w-full object-cover rounded-md">
-        <iframe
-          title={projectAlt}
-          src={projectURL}
-          allow=" autoplay; clipboard-write; encrypted-media "
+        <video
+          controls
           className="h-full w-full object-cover rounded-md"
-          allowFullScreen
-        ></iframe>
+          title={projectAlt}
+        >
+          <source src={projectURL} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
       <div className="p-5">

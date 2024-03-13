@@ -24,7 +24,10 @@ const Summar = () => {
           </p>
           <div>
             <a
-              href={"/images/AmriteshResume.pdf"}
+              href={
+                "https://portfollio.cdn.prismic.io/portfollio/ZfG7ekmNsf2sHjWH_AmriteshResume.pdf"
+              }
+              target="_blank"
               download={"Amritesh Resume"}
               type="pdf"
             >
@@ -37,7 +40,9 @@ const Summar = () => {
         <div className="md:w-4/12 w-full relative md:order-2 order-1">
           <img
             alt="Amritesh Verma"
-            src={"/images/Amritesh.jpg"}
+            src={
+              "https://images.prismic.io/portfollio/ZfG7e0mNsf2sHjWJ_Amritesh.jpg?auto=format,compress"
+            }
             className="h-full w-full -z-10 "
           ></img>
           <div className="absolute inset-0 z-0 md:bg-gradient-to-r from-white bg-gradient-to-t"></div>

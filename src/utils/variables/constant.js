@@ -42,7 +42,8 @@ export const EDUCATION_ARR = [
     duration: "July, 2016 - July, 2020",
     degree: "Bachelor of Technology",
     college: "Ajay Kumar Garg Engineering Collage, Ghaziabad",
-    logoURL: "/images/akgecLogo.png",
+    logoURL:
+      "https://images.prismic.io/portfollio/ZfG7d0mNsf2sHjWB_akgecLogo.png?auto=format,compress",
     alt: "AKGECLogo",
   },
   {
@@ -50,7 +51,8 @@ export const EDUCATION_ARR = [
     duration: "April, 2013 - Mar, 2015",
     degree: "Intermediate",
     college: "Sun Flower Public School, Ballia",
-    logoURL: "/images/SunFlowerLogo.png",
+    logoURL:
+      "https://images.prismic.io/portfollio/ZfG7ckmNsf2sHjV3_sunFlowerLogo.png?auto=format,compress",
     alt: "SunFlowerLogo",
   },
   {
@@ -58,7 +60,8 @@ export const EDUCATION_ARR = [
     duration: "April, 2011 - Mar, 2013",
     degree: "High School",
     college: "DALIMSS Rohania, Varanasi",
-    logoURL: "/images/dalimsslogo.png",
+    logoURL:
+      "https://images.prismic.io/portfollio/ZfG7dUmNsf2sHjV8_dalimsslogo.png?auto=format,compress",
     alt: "DALIMSSLogo",
   },
 ];
@@ -70,7 +73,8 @@ export const EXPERIENCE_ARR = [
     borderColor: "border-red-600",
     companyName: "QSS Technosoft Inc.",
     designation: "Senior Software Engineer (FullStack Developer)",
-    companyLogo: "/images/qss.png",
+    companyLogo:
+      "https://images.prismic.io/portfollio/ZfG7c0mNsf2sHjV4_qss.png?auto=format,compress",
     imageAlt: "Qss Logo",
     duration: "April, 2022 - Present",
     projects: [
@@ -118,7 +122,8 @@ export const EXPERIENCE_ARR = [
     borderColor: "border-sky-600",
     companyName: "Infosys",
     designation: "System Engineer (Frontend Developer)",
-    companyLogo: "/images/infosysLogo.webp",
+    companyLogo:
+      "https://images.prismic.io/portfollio/ZfG7dEmNsf2sHjV6_infosysLogo.webp?auto=format,compress",
     imageAlt: "Infosys Logo",
     duration: "Nov, 2020 - Mar, 2022",
     projects: [
@@ -141,49 +146,56 @@ export const MINI_PROJECTS_ARR = [
   {
     id: "mp-301",
     videoAlt: "Calender video",
-    videoSrc: "../videos/Calender.mp4",
+    videoSrc:
+      "https://portfollio.cdn.prismic.io/portfollio/ZfG700mNsf2sHjW8_Calender.mp4",
     title: "Calender",
     gitLink: "https://github.com/amriteshverma129/calendar",
   },
   {
     id: "mp-302",
     videoAlt: "Carousel video",
-    videoSrc: "../videos/Carousel.mp4",
+    videoSrc:
+      "https://portfollio.cdn.prismic.io/portfollio/ZfG7z0mNsf2sHjW6_Carousel.mp4",
     title: "Carousel",
     gitLink: "https://github.com/amriteshverma129/carousel",
   },
   {
     id: "mp-303",
     videoAlt: "Email video",
-    videoSrc: "../videos/Email.mp4",
+    videoSrc:
+      "https://portfollio.cdn.prismic.io/portfollio/ZfG7zUmNsf2sHjW5_Email.mp4",
     title: "Email",
     gitLink: "https://github.com/amriteshverma129/email",
   },
   {
     id: "mp-304",
     videoAlt: "Giphy video",
-    videoSrc: "../videos/Giphy.mp4",
+    videoSrc:
+      "https://portfollio.cdn.prismic.io/portfollio/ZfG7zEmNsf2sHjW4_Giphy.mp4",
     title: "Giphy",
     gitLink: "https://github.com/amriteshverma129/giphy",
   },
   {
     id: "mp-305",
     videoAlt: "Sprint video",
-    videoSrc: "../videos/Sprint.mp4",
+    videoSrc:
+      "https://portfollio.cdn.prismic.io/portfollio/ZfG7xUmNsf2sHjW2_Sprint.mp4",
     title: "Sprint",
     gitLink: "https://github.com/amriteshverma129/sprintv2",
   },
   {
     id: "mp-306",
     videoAlt: "Tic Tac Toe video",
-    videoSrc: "../videos/TicTacToe.mp4",
+    videoSrc:
+      "https://portfollio.cdn.prismic.io/portfollio/ZfG7xEmNsf2sHjW1_TicTacToe.mp4",
     title: "Tic Tac Toe",
     gitLink: "https://github.com/amriteshverma129/TicTacToe",
   },
   {
     id: "mp-307",
     videoAlt: "To do video",
-    videoSrc: "../videos/ToDo.mp4",
+    videoSrc:
+      "https://portfollio.cdn.prismic.io/portfollio/ZfG7w0mNsf2sHjW0_ToDo.mp4",
     title: "To Do",
     gitLink: "https://github.com/amriteshverma129/todo",
   },
@@ -193,7 +205,8 @@ export const PROJECT_ARR = [
   {
     id: "p-401",
     projectName: "Youtube GPT",
-    projectURL: "/videos/youtubeGPT.mp4",
+    projectURL:
+      "https://portfollio.cdn.prismic.io/portfollio/ZfG7v0mNsf2sHjWx_youtubeGPT.mp4",
     projectAlt: "Youtube GPT",
     projectFeature: [
       "As part of my role, I actively engaged with business analysts (project owners) to thoroughly grasp the business logic and client require- ments, facilitating seamless project development and successful out- comes.",
@@ -205,7 +218,8 @@ export const PROJECT_ARR = [
   {
     id: "p-402",
     projectName: "Netflix GPT",
-    projectURL: "/videos/NetflixGPT.mp4",
+    projectURL:
+      "https://portfollio.cdn.prismic.io/portfollio/ZfG7yUmNsf2sHjW3_NetflixGPT.mp4",
     projectAlt: "Netflix GPT",
     projectFeature: [
       "As part of my role, I actively engaged with business analysts (project owners) to thoroughly grasp the business logic and client require- ments, facilitating seamless project development and successful out- comes.",
@@ -216,7 +230,8 @@ export const PROJECT_ARR = [
   {
     id: "p-403",
     projectName: "Flipkart",
-    projectURL: "/videos/flipkart.mp4",
+    projectURL:
+      "https://portfollio.cdn.prismic.io/portfollio/ZfG7wkmNsf2sHjWz_flipkart.mp4",
     projectAlt: "Flipkart",
     projectFeature: [
       "As part of my role, I actively engaged with business analysts (project owners) to thoroughly grasp the business logic and client require- ments, facilitating seamless project development and successful out- comes.",

@@ -4,13 +4,14 @@ const MiniProjectCard = ({ videoAlt, videoSrc, title, gitLink }) => {
   return (
     <div>
       <div className="h-64 rounded-md">
-        <iframe
-          title={videoAlt}
-          src={videoSrc}
-          allow=" autoplay; clipboard-write; encrypted-media"
+        <video
+          controls
           className="h-full w-full object-cover rounded-t-md"
-          allowFullScreen
-        ></iframe>
+          title={videoAlt}
+        >
+          <source src={videoSrc} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
       <div className="flex flex-row justify-between items-center p-2 pt-0 bg-black rounded-b-md text-white">
         {" "}
