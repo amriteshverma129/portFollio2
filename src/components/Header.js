@@ -4,7 +4,7 @@ import ThemeSwitch from "./ThemeSwitch";
 const Header = () => {
   return (
     <div className="flex flex-row items-center h-16 mb-10">
-      <div className="text-4xl italic font-display">
+      <div className="sm:text-4xl text-xl italic font-display">
         {" "}
         &lt;Amritesh Verma&gt;{" "}
       </div>
@@ -31,7 +31,9 @@ const Header = () => {
       {/* <div id="header-menu" className="ml-4">
         <MenuIcon />
       </div> */}
-      <ThemeSwitch />
+      <div className="sm:ml-2 ml-auto">
+        <ThemeSwitch />
+      </div>
     </div>
   );
 };

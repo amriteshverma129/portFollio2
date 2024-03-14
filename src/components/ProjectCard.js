@@ -9,10 +9,10 @@ const ProjectCard = ({
 }) => {
   return (
     <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-      <div className="h-52 w-full object-cover rounded-md">
+      <div className="h-52 w-full object-cover rounded-md bg-slate-400 bg-gradient-to-t from:black">
         <video
           controls
-          className="h-full w-full object-cover rounded-md"
+          className="h-full w-full object-cover rounded-md "
           title={projectAlt}
         >
           <source src={projectURL} type="video/mp4" />

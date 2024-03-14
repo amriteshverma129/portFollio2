@@ -3,7 +3,7 @@ import React from "react";
 const MiniProjectCard = ({ videoAlt, videoSrc, title, gitLink }) => {
   return (
     <div>
-      <div className="h-64 rounded-md">
+      <div className="h-64 rounded-md bg-slate-400 bg-gradient-to-t from:black">
         <video
           controls
           className="h-full w-full object-cover rounded-t-md"

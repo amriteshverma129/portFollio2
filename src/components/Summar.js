@@ -25,7 +25,7 @@ const Summar = () => {
           <div>
             <a
               href={
-                "https://portfollio.cdn.prismic.io/portfollio/ZfG7ekmNsf2sHjWH_AmriteshResume.pdf"
+                "https://portfollio.cdn.prismic.io/portfollio/ZfMVAbTwE6aM1J2R_AmriteshLatestone.pdf"
               }
               target="_blank"
               download={"Amritesh Resume"}
