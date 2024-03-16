@@ -1,5 +1,5 @@
 import React from "react";
-import ThemeSwitch from "./ThemeSwitch";
+// import ThemeSwitch from "./ThemeSwitch";
 
 const Header = () => {
   return (
@@ -31,9 +31,9 @@ const Header = () => {
       {/* <div id="header-menu" className="ml-4">
         <MenuIcon />
       </div> */}
-      <div className="sm:ml-2 ml-auto">
+      {/* <div className="sm:ml-2 ml-auto">
         <ThemeSwitch />
-      </div>
+      </div> */}
     </div>
   );
 };
