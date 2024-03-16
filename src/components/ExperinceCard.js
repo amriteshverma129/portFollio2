@@ -1,4 +1,5 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
 const ExperinceCard = ({
   backgroundColor,
@@ -10,12 +11,15 @@ const ExperinceCard = ({
   companyLogo,
   projects,
 }) => {
+  const theme = useSelector((store) => store.theme.theme);
   return (
     <div
       className={`flex md:flex-row flex-col border rounded-lg ${borderColor} hover:shadow-gray-500 hover:shadow-lg my-3 md:mt-3 mt-10 `}
     >
       <div
-        className={`md:bg-gradient-to-l bg-gradient-to-t from-white md:w-1/6 w-full md:h-auto h-[100px] md:rounded-l-lg md:rounded-t-none rounded-t-lg relative ${backgroundColor}`}
+        className={`md:bg-gradient-to-l bg-gradient-to-t ${
+          theme === "dark" ? "from-[#171c27]" : "from-white"
+        } md:w-1/6 w-full md:h-auto h-[100px] md:rounded-l-lg md:rounded-t-none rounded-t-lg relative ${backgroundColor}`}
       >
         <div
           className={`md:h-28 md:w-28 h-24 w-24 absolute border ${borderColor} bg-white rounded-full flex items-center justify-center md:top-1/2 -translate-y-1/2 md:left-0 -translate-x-1/2 top-0 left-1/2`}
@@ -44,6 +48,7 @@ const ExperinceCard = ({
                     <li
                       key={index}
                       dangerouslySetInnerHTML={{ __html: para }}
+                      className={`${theme === "dark" && "text-gray-400"}`}
                     ></li>
                   );
                 })}

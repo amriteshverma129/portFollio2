@@ -1,6 +1,8 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
 const Summar = () => {
+  const theme = useSelector((store) => store.theme.theme);
   return (
     <div>
       <div className="flex md:flex-row flex-col justify-center items-center">
@@ -9,7 +11,7 @@ const Summar = () => {
             Hi all, I'm Amritesh
             <span className="wave-emoji">👋</span>
           </h1>
-          <p className="py-3 text-lg">
+          <p className={`py-3 text-lg ${theme === "dark" && "text-gray-400"}`}>
             {" "}
             A seasoned FullStack Developer <strong>(MERN)</strong> with nearly
             3.4 years of hands-on experience in crafting and deploying
@@ -31,7 +33,13 @@ const Summar = () => {
               download={"Amritesh Resume"}
               type="pdf"
             >
-              <button className="bg-slate-900 text-white text-base rounded-md px-5 py-2 mt-5">
+              <button
+                className={` text-base rounded-md px-5 py-2 mt-5 ${
+                  theme === "dark"
+                    ? "bg-white text-slate-900"
+                    : "bg-slate-900 text-white"
+                }`}
+              >
                 Download Resume
               </button>
             </a>
@@ -45,7 +53,11 @@ const Summar = () => {
             }
             className="h-full w-full -z-10 "
           ></img>
-          <div className="absolute inset-0 z-0 md:bg-gradient-to-r from-white bg-gradient-to-t"></div>
+          <div
+            className={`absolute inset-0 z-0 md:bg-gradient-to-r bg-gradient-to-t ${
+              theme === "dark" ? "from-[#171c27]" : "from-white"
+            }`}
+          ></div>
         </div>
       </div>
     </div>
