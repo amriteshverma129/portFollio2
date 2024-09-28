@@ -14,7 +14,7 @@ const Summar = () => {
           <p className={`py-3 text-lg ${theme === "dark" && "text-gray-400"}`}>
             {" "}
             A seasoned FullStack Developer <strong>(MERN)</strong> with nearly
-            3.4 years of hands-on experience in crafting and deploying
+            3.9 years of hands-on experience in crafting and deploying
             innovative applications and solutions across diverse technologies
             and programming languages. I am passionate about seeking
             opportunities where I can harness my skills and expertise to drive
