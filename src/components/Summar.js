@@ -13,8 +13,8 @@ const Summar = () => {
           </h1>
           <p className={`py-3 text-lg ${theme === "dark" && "text-gray-400"}`}>
             {" "}
-            A seasoned FullStack Developer <strong>(MERN)</strong> with nearly
-            3.9 years of hands-on experience in crafting and deploying
+            A seasoned Senior Frontend Developer <strong>(MERN)</strong> with
+            nearly 4.2 years of hands-on experience in crafting and deploying
             innovative applications and solutions across diverse technologies
             and programming languages. I am passionate about seeking
             opportunities where I can harness my skills and expertise to drive
@@ -27,11 +27,12 @@ const Summar = () => {
           <div>
             <a
               href={
-                "https://portfollio.cdn.prismic.io/portfollio/ZfMVAbTwE6aM1J2R_AmriteshLatestone.pdf"
+                "https://portfollio.cdn.prismic.io/portfollio/Z5871JbqstJ9-IJI_AmriteshResume.pdf"
               }
               target="_blank"
               download={"Amritesh Resume"}
               type="pdf"
+              rel="noreferrer"
             >
               <button
                 className={` text-base rounded-md px-5 py-2 mt-5 ${
