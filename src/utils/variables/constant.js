@@ -128,7 +128,7 @@ export const EXPERIENCE_ARR = [
     projects: [
       {
         projectId: "p-101",
-        projectName: "3. Elder Connect",
+        projectName: "3. LOOP Village",
         description:
           "Our mission is to enhance the lives of seniors worldwide by fostering meaningful connections through captivating virtual classes, events, and content. Our aim is to create unparalleled emotional bonds and alleviate the pain of social isolation",
         link: "https://members.theloopvillage.com",
