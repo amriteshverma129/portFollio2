@@ -68,19 +68,67 @@ export const EDUCATION_ARR = [
 
 export const EXPERIENCE_ARR = [
   {
-    id: "exp-201",
-    backgroundColor: "bg-red-600",
-    borderColor: "border-red-600",
+    id: "exp-204",
+    backgroundColor: "bg-violet-600",
+    borderColor: "border-violet-600",
     companyName: "QSS Technosoft Inc.",
-    designation: "Senior Software Engineer (FullStack Developer)",
+    designation: "Senior Software Engineer (Frontend Developer)",
     companyLogo:
       "https://images.prismic.io/portfollio/ZfG7c0mNsf2sHjV4_qss.png?auto=format,compress",
     imageAlt: "Qss Logo",
-    duration: "April, 2022 - Present",
+    duration: "March, 2025 - Present",
+    projects: [
+      {
+        projectId: "p-105",
+        projectName: "1. Contilio",
+        description:
+          "Aimed at streamlining construction data management by enhancing team configuration workflows and improving the performance and scalability of progress monitoring pages.",
+        link: "",
+        feature: [
+          "Led the <strong>refactoring of the Progress page</strong> to improve code maintainability, reduce redundancy, and enhance performance, ensuring a smoother user experience and easier future scalability.",
+          "Developing a robust <strong>Team Configuration module</strong> to allow admins and users to <strong>add, edit, disable, or manage teams</strong> on a per-project basis, providing greater flexibility and control over project collaboration.",
+          "Implemented reusable components and optimized state management patterns to support dynamic team operations and maintain consistency across different user roles.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "exp-205",
+    backgroundColor: "bg-yellow-600",
+    borderColor: "border-yellow-600",
+    companyLogo:
+      "https://images.prismic.io/portfollio/ZfG7c0mNsf2sHjV4_qss.png?auto=format,compress",
+    imageAlt: "Qss Logo",
+    duration: "December, 2024 - Feb 2025",
+    projects: [
+      {
+        projectId: "p-104",
+        projectName: "2. Block Star",
+        description:
+          "Aimed at efficiently managing property listings, client interactions, transactions, and real estate data visualization to enhance the user experience and support informed property decisions.",
+        link: "",
+        feature: [
+          "Developed and maintained <strong>protected and public routes</strong> to manage user navigation flow based on authentication status, ensuring a secure and intuitive experience across the property platform.",
+          "Implemented <strong>access and refresh token handling</strong> to manage session persistence securely, enhancing user login reliability and protecting sensitive data.",
+          "Built and optimized a <strong>Wallet system</strong> to display and manage multiple transaction types using dynamic data received from backend APIs, ensuring accurate real-time financial tracking.",
+          "Created the <strong>Property Detail page</strong> with integrated <strong>Google Maps API</strong> to display nearby landmarks and key locations, helping users make better-informed property decisions.",
+          "Designed and integrated <strong>interactive charts</strong> to visualize estimated <strong>property value growth</strong> over a five-year span, enabling users and investors to assess long-term value prospects.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "exp-201",
+    backgroundColor: "bg-red-600",
+    borderColor: "border-red-600",
+    companyLogo:
+      "https://images.prismic.io/portfollio/ZfG7c0mNsf2sHjV4_qss.png?auto=format,compress",
+    imageAlt: "Qss Logo",
+    duration: "August, 2022 - November, 2024",
     projects: [
       {
         projectId: "p-101",
-        projectName: "1. Elder Connect",
+        projectName: "3. Elder Connect",
         description:
           "Our mission is to enhance the lives of seniors worldwide by fostering meaningful connections through captivating virtual classes, events, and content. Our aim is to create unparalleled emotional bonds and alleviate the pain of social isolation",
         link: "https://members.theloopvillage.com",
@@ -113,11 +161,11 @@ export const EXPERIENCE_ARR = [
     companyLogo:
       "https://images.prismic.io/portfollio/ZfG7c0mNsf2sHjV4_qss.png?auto=format,compress",
     imageAlt: "Qss Logo",
-    // duration: "April, 2022 - Present",
+    duration: "April, 2022 - July, 2022",
     projects: [
       {
         projectId: "p-102",
-        projectName: "GPS",
+        projectName: "4. GPS",
         description:
           " Aimed at efficiently managing employees, clients, contractors, and the hiring process, as well as handling sensitive HR details for the company.",
         link: "",

@@ -19,7 +19,7 @@ const ExperinceCard = ({
       <div
         className={`md:bg-gradient-to-l bg-gradient-to-t ${
           theme === "dark" ? "from-[#171c27]" : "from-white"
-        } md:w-1/6 w-full md:h-auto h-[100px] md:rounded-l-lg md:rounded-t-none rounded-t-lg relative ${backgroundColor}`}
+        } md:w-1/6 w-full md:h-auto h-[100px] md:rounded-l-lg  rounded-t-lg relative ${backgroundColor}`}
       >
         <div
           className={`md:h-28 md:w-28 h-24 w-24 absolute border ${borderColor} bg-white rounded-full flex items-center justify-center md:top-1/2 -translate-y-1/2 md:left-0 -translate-x-1/2 top-0 left-1/2`}
