@@ -4,19 +4,23 @@ import { MINI_PROJECTS_ARR } from "../utils/variables/constant";
 
 const MiniProjects = () => {
   return (
-    <div id="mini-projects" className="mb-10">
-      <div className="text-3xl font-semibold mb-6">Vanilla Projects</div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
-        {MINI_PROJECTS_ARR.map((miniProject) => {
+    <div className="animate-fade-in">
+      <h2 className="section-title mb-12">Vanilla JS Projects</h2>
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
+        {MINI_PROJECTS_ARR.map((miniProject, index) => {
           return (
-            <React.Fragment key={miniProject.id}>
+            <div
+              key={miniProject.id}
+              className="animate-slide-up"
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
               <MiniProjectCard
                 videoAlt={miniProject.videoAlt}
                 videoSrc={miniProject.videoSrc}
                 title={miniProject.title}
                 gitLink={miniProject.gitLink}
               />
-            </React.Fragment>
+            </div>
           );
         })}
       </div>

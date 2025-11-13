@@ -96,6 +96,8 @@ export const EXPERIENCE_ARR = [
     id: "exp-205",
     backgroundColor: "bg-yellow-600",
     borderColor: "border-yellow-600",
+    companyName: "QSS Technosoft Inc.",
+    designation: "Senior Software Engineer (Frontend Developer)",
     companyLogo:
       "https://images.prismic.io/portfollio/ZfG7c0mNsf2sHjV4_qss.png?auto=format,compress",
     imageAlt: "Qss Logo",
@@ -121,6 +123,8 @@ export const EXPERIENCE_ARR = [
     id: "exp-201",
     backgroundColor: "bg-red-600",
     borderColor: "border-red-600",
+    companyName: "QSS Technosoft Inc.",
+    designation: "Software Engineer (Frontend Developer)",
     companyLogo:
       "https://images.prismic.io/portfollio/ZfG7c0mNsf2sHjV4_qss.png?auto=format,compress",
     imageAlt: "Qss Logo",
@@ -156,8 +160,8 @@ export const EXPERIENCE_ARR = [
     id: "exp-203",
     backgroundColor: "bg-green-600",
     borderColor: "border-green-600",
-    // companyName: "QSS Technosoft Inc.",
-    // designation: "Senior Software Engineer (FullStack Developer)",
+    companyName: "QSS Technosoft Inc.",
+    designation: "Software Engineer (Frontend Developer)",
     companyLogo:
       "https://images.prismic.io/portfollio/ZfG7c0mNsf2sHjV4_qss.png?auto=format,compress",
     imageAlt: "Qss Logo",
