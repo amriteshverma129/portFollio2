@@ -4,14 +4,15 @@ import { useSelector } from "react-redux";
 const Range = ({ width, skill }) => {
   const theme = useSelector((store) => store.theme.theme);
   const [animatedWidth, setAnimatedWidth] = useState(0);
-  const [isVisible, setIsVisible] = useState(false);
   const rangeRef = useRef(null);
 
   useEffect(() => {
+    const currentRef = rangeRef.current;
+    if (!currentRef) return;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setIsVisible(true);
           // Animate the progress bar
           const widthValue = typeof width === 'string' ? parseFloat(width.replace('%', '')) : width;
           setTimeout(() => {
@@ -22,13 +23,11 @@ const Range = ({ width, skill }) => {
       { threshold: 0.5 }
     );
 
-    if (rangeRef.current) {
-      observer.observe(rangeRef.current);
-    }
+    observer.observe(currentRef);
 
     return () => {
-      if (rangeRef.current) {
-        observer.unobserve(rangeRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, [width]);
