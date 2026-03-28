@@ -1,7 +1,7 @@
 import React from "react";
 import LottieAnimation from "./LottieAnimation";
 import EducationCard from "./EducationCard";
-import { EDUCATION_ARR } from "../utils/variables/constant";
+import { EDUCATION_ARR } from "../utils/variables/education";
 import { useSelector } from "react-redux";
 
 const Educations = () => {

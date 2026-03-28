@@ -1,6 +1,6 @@
 import React from "react";
 import MiniProjectCard from "./MiniProjectCard";
-import { MINI_PROJECTS_ARR } from "../utils/variables/constant";
+import { MINI_PROJECTS_ARR } from "../utils/variables/miniProjects";
 
 const MiniProjects = () => {
   return (

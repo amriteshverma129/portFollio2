@@ -1,72 +1,29 @@
-export const SKILLS_ARR = [
-  {
-    id: "skill-5001",
-    percentage: "95%",
-    skill: "Next Js/ React Js",
-  },
-  {
-    id: "skill-5002",
-    percentage: "90%",
-    skill: "Javascript/ Typescript",
-  },
-  {
-    id: "skill-5003",
-    percentage: "85%",
-    skill: "HTML/ CSS",
-  },
-  {
-    id: "skill-5004",
-    percentage: "90%",
-    skill: "GraphQL/Rest API",
-  },
-  {
-    id: "skill-5005",
-    percentage: "95%",
-    skill: "Redux",
-  },
-  {
-    id: "skill-5006",
-    percentage: "80%",
-    skill: "My SQL",
-  },
-  {
-    id: "skill-5007",
-    percentage: "80%",
-    skill: "Node Js/ Express",
-  },
-];
-
-export const EDUCATION_ARR = [
-  {
-    id: "education 6051",
-    duration: "July, 2016 - July, 2020",
-    degree: "Bachelor of Technology",
-    college: "Ajay Kumar Garg Engineering Collage, Ghaziabad",
-    logoURL:
-      "https://images.prismic.io/portfollio/ZfG7d0mNsf2sHjWB_akgecLogo.png?auto=format,compress",
-    alt: "AKGECLogo",
-  },
-  {
-    id: "education 6052",
-    duration: "April, 2013 - Mar, 2015",
-    degree: "Intermediate",
-    college: "Sun Flower Public School, Ballia",
-    logoURL:
-      "https://images.prismic.io/portfollio/ZfG7ckmNsf2sHjV3_sunFlowerLogo.png?auto=format,compress",
-    alt: "SunFlowerLogo",
-  },
-  {
-    id: "education 6053",
-    duration: "April, 2011 - Mar, 2013",
-    degree: "High School",
-    college: "DALIMSS Rohania, Varanasi",
-    logoURL:
-      "https://images.prismic.io/portfollio/ZfG7dUmNsf2sHjV8_dalimsslogo.png?auto=format,compress",
-    alt: "DALIMSSLogo",
-  },
-];
-
 export const EXPERIENCE_ARR = [
+  {
+    id: "exp-206",
+    backgroundColor: "bg-indigo-600",
+    borderColor: "border-indigo-600",
+    companyName: "QSS Technosoft Inc.",
+    designation: "Senior Software Engineer (Backend Developer)",
+    companyLogo:
+      "https://images.prismic.io/portfollio/ZfG7c0mNsf2sHjV4_qss.png?auto=format,compress",
+    imageAlt: "Qss Logo",
+    duration: "March, 2026 - Present",
+    projects: [
+      {
+        projectId: "p-106",
+        projectName: "1. LAMI",
+        description:
+          "Contributing on the LAMI initiative with a backend-focused role to deepen server-side and data-layer experience alongside existing frontend expertise. <em>In progress.</em>",
+        link: "",
+        feature: [
+          "Led <strong>database migration from MySQL to PostgreSQL</strong>, ensuring data integrity and minimal downtime.",
+          "Contributed to <strong>codebase migration from JavaScript to TypeScript</strong>, improving type safety and maintainability.",
+          "Working as a <strong>Backend Developer</strong> on this project to gain hands-on exposure to backend systems, APIs, and infrastructure.",
+        ],
+      },
+    ],
+  },
   {
     id: "exp-204",
     backgroundColor: "bg-violet-600",
@@ -76,18 +33,21 @@ export const EXPERIENCE_ARR = [
     companyLogo:
       "https://images.prismic.io/portfollio/ZfG7c0mNsf2sHjV4_qss.png?auto=format,compress",
     imageAlt: "Qss Logo",
-    duration: "March, 2025 - Present",
+    duration: "March, 2025 - February, 2026",
     projects: [
       {
         projectId: "p-105",
         projectName: "1. Contilio",
         description:
-          "Aimed at streamlining construction data management by enhancing team configuration workflows and improving the performance and scalability of progress monitoring pages.",
+          "Construction data platform focused on progress monitoring, team collaboration, and scalable workflows for the built environment.",
         link: "",
         feature: [
-          "Led the <strong>refactoring of the Progress page</strong> to improve code maintainability, reduce redundancy, and enhance performance, ensuring a smoother user experience and easier future scalability.",
-          "Developing a robust <strong>Team Configuration module</strong> to allow admins and users to <strong>add, edit, disable, or manage teams</strong> on a per-project basis, providing greater flexibility and control over project collaboration.",
-          "Implemented reusable components and optimized state management patterns to support dynamic team operations and maintain consistency across different user roles.",
+          "Led <strong>frontend refactoring of the Progress module</strong>, simplifying state management, reducing code duplication, and improving load times.",
+          "Upgraded major <strong>frontend dependencies</strong> (React, TypeScript, build tooling, AWS SDKs), reducing security risks.",
+          "Migrated the design system from <strong>Semantic UI</strong> to <strong>shadcn/ui</strong>, introducing reusable, accessible components.",
+          "Introduced <strong>Level 2 hierarchy</strong> in project structure covering data modeling, UI flows, and permission management.",
+          "Implemented <strong>user activity logging</strong> across critical workflows to support auditing and analytics.",
+          "Built the <strong>Team Configuration module</strong> with <strong>role-based access control</strong>.",
         ],
       },
     ],
@@ -204,118 +164,5 @@ export const EXPERIENCE_ARR = [
         ],
       },
     ],
-  },
-];
-
-export const MINI_PROJECTS_ARR = [
-  {
-    id: "mp-301",
-    videoAlt: "Calender video",
-    videoSrc:
-      "https://portfollio.cdn.prismic.io/portfollio/ZfG700mNsf2sHjW8_Calender.mp4",
-    title: "Calender",
-    gitLink: "https://github.com/amriteshverma129/calendar",
-  },
-  {
-    id: "mp-302",
-    videoAlt: "Carousel video",
-    videoSrc:
-      "https://portfollio.cdn.prismic.io/portfollio/ZfG7z0mNsf2sHjW6_Carousel.mp4",
-    title: "Carousel",
-    gitLink: "https://github.com/amriteshverma129/carousel",
-  },
-  {
-    id: "mp-303",
-    videoAlt: "Email video",
-    videoSrc:
-      "https://portfollio.cdn.prismic.io/portfollio/ZfG7zUmNsf2sHjW5_Email.mp4",
-    title: "Email",
-    gitLink: "https://github.com/amriteshverma129/email",
-  },
-  {
-    id: "mp-304",
-    videoAlt: "Giphy video",
-    videoSrc:
-      "https://portfollio.cdn.prismic.io/portfollio/ZfG7zEmNsf2sHjW4_Giphy.mp4",
-    title: "Giphy",
-    gitLink: "https://github.com/amriteshverma129/giphy",
-  },
-  {
-    id: "mp-305",
-    videoAlt: "Sprint video",
-    videoSrc:
-      "https://portfollio.cdn.prismic.io/portfollio/ZfG7xUmNsf2sHjW2_Sprint.mp4",
-    title: "Sprint",
-    gitLink: "https://github.com/amriteshverma129/sprintv2",
-  },
-  {
-    id: "mp-306",
-    videoAlt: "Tic Tac Toe video",
-    videoSrc:
-      "https://portfollio.cdn.prismic.io/portfollio/ZfG7xEmNsf2sHjW1_TicTacToe.mp4",
-    title: "Tic Tac Toe",
-    gitLink: "https://github.com/amriteshverma129/TicTacToe",
-  },
-  {
-    id: "mp-307",
-    videoAlt: "To do video",
-    videoSrc:
-      "https://portfollio.cdn.prismic.io/portfollio/ZfG7w0mNsf2sHjW0_ToDo.mp4",
-    title: "To Do",
-    gitLink: "https://github.com/amriteshverma129/todo",
-  },
-];
-
-export const PROJECT_ARR = [
-  {
-    id: "p-401",
-    projectName: "Youtube GPT",
-    projectURL:
-      "https://portfollio.cdn.prismic.io/portfollio/ZfG7v0mNsf2sHjWx_youtubeGPT.mp4",
-    projectAlt: "Youtube GPT",
-    projectFeature: [
-      "Developed a basic YouTube project using the latest React framework.",
-      "Utilized react-redux and @reduxjs/toolkit for state management within the application.",
-      "Styled components using tailwindcss to achieve a clean and modern user interface.",
-      "Implemented client-side routing using react-router-dom for seamless navigation between different views.",
-      "Utilized the <strong>YouTube Data API</strong> to fetch and render a list of videos in the VideoContainer component.",
-      "Engineered a sophisticated header component featuring a search box with autocomplete suggestions, powered by debouncing functionality and optimized response caching for improved performance and user satisfaction.",
-      "Developed a separate page to stream individual YouTube videos using iframes, with the video ID passed as a parameter in the URL.",
-      "Implemented Live Chat using API Polling",
-    ],
-    gitLink:
-      "https://github.com/amriteshverma129/youtube-Basic-/tree/master/youtube-basic",
-  },
-  {
-    id: "p-402",
-    projectName: "Netflix GPT",
-    projectURL:
-      "https://portfollio.cdn.prismic.io/portfollio/ZfG7yUmNsf2sHjW3_NetflixGPT.mp4",
-    projectAlt: "Netflix GPT",
-    projectFeature: [
-      "Developed a basic Netflix project using the latest React framework.",
-      "Utilized react-redux and @reduxjs/toolkit for state management within the application.",
-      "Styled components using tailwindcss to achieve a clean and modern user interface.",
-      "Introduced a multilingual feature to ensure inclusivity and accessibility for global audiences.",
-      "Utilized the <strong>TMDB API</strong> to dynamically retrieve and display a diverse array of movies across various categories.",
-      "Developed a robust search functionality empowered by the <strong>OpenAI API</strong>, enabling users to explore movies tailored to their preferences. Leveraged intelligent caching mechanisms to optimize search performance.",
-      "Implemented secure authentication mechanisms through seamless integration with Firebase, ensuring user data privacy.",
-    ],
-    gitLink: "https://github.com/amriteshverma129/NetflixGPT",
-  },
-  {
-    id: "p-403",
-    projectName: "Flipkart",
-    projectURL:
-      "https://portfollio.cdn.prismic.io/portfollio/ZfG7wkmNsf2sHjWz_flipkart.mp4",
-    projectAlt: "Flipkart",
-    projectFeature: [
-      "Developed a basic flipkart project using the latest React framework.",
-      "Utilized react-redux and @reduxjs/toolkit for state management within the application.",
-      "Styled components using tailwindcss to achieve a clean and modern user interface.",
-      "Implemented a comprehensive Cart module, allowing users to conveniently view and manage selected items across the platform.",
-      "Users can adjust item quantities or remove items directly from the cart, facilitating seamless checkout experiences. Leveraged useMemo for optimization to enhance performance and responsiveness.",
-    ],
-    gitLink: "https://github.com/amriteshverma129/flipkart",
   },
 ];

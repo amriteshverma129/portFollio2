@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import { PROJECT_ARR } from "../utils/variables/constant";
+import { PROJECT_ARR } from "../utils/variables/projects";
 
 const Projects = () => {
   return (

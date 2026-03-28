@@ -1,7 +1,7 @@
 import React from "react";
 import LottieAnimation from "./LottieAnimation";
 import ExperinceCard from "./ExperinceCard";
-import { EXPERIENCE_ARR } from "../utils/variables/constant";
+import { EXPERIENCE_ARR } from "../utils/variables/experience";
 import { useSelector } from "react-redux";
 
 const Experience = () => {

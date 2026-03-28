@@ -1,7 +1,7 @@
 import React from "react";
 import LottieAnimation from "./LottieAnimation";
 import Range from "./Range";
-import { SKILLS_ARR } from "../utils/variables/constant";
+import { SKILLS_ARR } from "../utils/variables/skills";
 import { useSelector } from "react-redux";
 
 const Skill = () => {
